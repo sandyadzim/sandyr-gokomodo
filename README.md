@@ -2,7 +2,7 @@
 - ReactJS
 - Tailwind
 
-[DEMO PROJECT](https://sandyr-gokodomo.netlify.app/pokemon)
+[DEMO PROJECT](https://sandyr-gokodomo.netlify.app/)
 
 
 
