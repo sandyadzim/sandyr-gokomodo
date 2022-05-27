@@ -1,0 +1,79 @@
+
+// Type Pokemon
+.type-normal { 
+  --color: #F3D179;
+}
+
+.type-flying { 
+  --color: #BAABDA;
+}
+
+.type-ghost { 
+  --color: #8A79AF;
+}
+
+.type-dark { 
+  --color: #333333; 
+}
+
+.type-steel { 
+  --color: #FBC687;
+}
+
+.type-ground { 
+  --color: #A97155;
+}
+
+.type-poison { 
+  --color: #907FA4;
+}
+
+.type-grass { 
+  --color: #70AF85;
+}
+
+.type-fire { 
+  --color: #FF7878;
+}
+
+.type-electric { 
+  --color: #EFD345;
+}
+
+.type-fairy { 
+  --color: #F9CEEE;
+}
+
+.type-bug { 
+  --color: #C6D57E;
+}
+
+.type-fighting { 
+  --color: #E4D1B9;
+}
+
+.type-water { 
+  --color: #8CC0DE;
+}
+
+.type-psychic { 
+  --color: #7882A4;
+}
+
+.type-ice { 
+  --color: #9ADCFF;
+}
+
+.type-rock { 
+  --color: #BCBAB8;
+}
+
+.type-dragon { 
+  --color: #F5B971;
+}
+
+.card {
+  background-color: var(--color);
+  box-shadow: var(--color);
+  @apply w-full h-full rounded-3xl shadow-lg p-4 transition-all shadow-[color:var(--color)];
+}
